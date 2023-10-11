@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-	email: `ggc${emailNumber}@valv.sbs`,
-	password: "qweQWE123!@#`",
+	email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
 	category: "blockchain-2",
 	firstName: "Jukka",
 	lastName: "Ristila",
 	country: "Finland",
 	photoFilename: "C-blockchain-2.jpg",
+	dateOfBirth: "1993-01-22"
+	    
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
 	t.profileTitle = "Web & Blockchain Developer | Solidity | Ethereum | Rust | React | Web3";
 	t.address = {
 		"street": "Koskikatu 30",

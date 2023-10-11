@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-	email: `ggv${emailNumber}@valv.sbs`,
-	password: "qweQWE123!@#`",
+	email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
 	category: "automation",
 	firstName: "Toran",
 	lastName: "Sancakli",
 	country: "Turkey",
 	photoFilename: "V-automation.jpg",
+	dateOfBirth: "1996-01-22"
+	    
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1996-01-22";
 	t.profileTitle = "Automation Specialist | Web & Desktop | Web Scraping | Data Processing";
 	t.address = {
 		"street": "15, Mudanya Caddesi",

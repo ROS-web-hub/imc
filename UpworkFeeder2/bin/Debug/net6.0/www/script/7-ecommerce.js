@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `gg${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "ecommerce",
     firstName: "Danyil",
     lastName: "Kovalov",
     country: "Poland",
     photoFilename: "7-ecommerce.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Ecommerce Full-Stack | Shopify | WordPress | Node | React | Wix | SEO";
     t.address = {
         "street": "ul. Dobra 117",

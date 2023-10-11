@@ -1,17 +1,19 @@
 
 window.signupInfo = {
-    email: `ggj${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "java-cs",
     firstName: "Tomi",
     lastName: "Pielinen",
     country: "Estonia",
     photoFilename: "J-java-cs.jpg",
+    dateOfBirth: "1993-01-22"
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Full-Stack | Java/Spring Boot | C#/ASP.NET | Python | Node/React/Web3";
     t.address = {
         "street": "Põllu 30",

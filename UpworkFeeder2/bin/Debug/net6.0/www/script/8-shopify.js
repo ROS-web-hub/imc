@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `gg${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "shopify",
     firstName: "Gerardo",
     lastName: "Gonzalez",
     country: "Colombia",
     photoFilename: "8-shopify.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Shopify Certified | Ecommerce | WordPress | Node/React | Wix | SEO";
     t.address = {
         "street": "Aut SUR No. 66-78 L B 280",

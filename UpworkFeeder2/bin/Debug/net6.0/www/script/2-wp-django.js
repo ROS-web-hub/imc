@@ -1,18 +1,21 @@
 
 window.signupInfo = {
-    email: `gg${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "wp-django",
     firstName: "Pahana",
     lastName: "Choctaw",
     country: "Mexico",
     photoFilename: "2-wp-django.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
-    t.profileTitle = "Full-Stack | WordPress/PHP/Laravel | Node/React/Vue | Python/Django";
+    t.dateOfBirth = "1992-01-21";
+    t.profileTitle = " PHP/Laravel | Node/React/Vue | Python/Django";
     t.address = {
         "street": "HIDALGO 170-414, SAN MARTIN OBISPO TEPETLIXPA, 54763",
         "state": "CMX",

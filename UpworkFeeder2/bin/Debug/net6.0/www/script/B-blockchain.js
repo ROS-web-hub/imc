@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `ggb${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "blockchain",
     firstName: "Fresco",
     lastName: "Marcelo",
     country: "Argentina",
     photoFilename: "B-blockchain.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Blockchain Full-Stack | Web3 | Smart Contract | Solidity | Rust | NFT";
     t.address = {
         "street": "Gaona 18106",

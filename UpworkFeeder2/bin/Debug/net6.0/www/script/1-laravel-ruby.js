@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `gg${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "laravel-ruby",
     firstName: "Haris",
     lastName: "Dzafic",
     country: "Bosnia",
     photoFilename: "1-laravel-ruby.jpg",
+    dateOfBirth: "1993-01-22"
+    
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Full-Stack | Laravel/PHP/WordPress | Vue/React/Node | Ruby on Rails";
     t.address = {
         "street": "409, Vuka Karadžića",

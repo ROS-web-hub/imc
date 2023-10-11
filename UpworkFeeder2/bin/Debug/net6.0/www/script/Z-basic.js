@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `ggz${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "basic",
     firstName: "Valentyn",
     lastName: "Boiko",
     country: "Czech",
     photoFilename: "Z-basic.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1993-01-22";
     t.profileTitle = "Basic Expert | C#/.NET | Python | Java | Auto | Linux | DB | Assembly";
     t.address = {
         "street": "Sokolska 16113",

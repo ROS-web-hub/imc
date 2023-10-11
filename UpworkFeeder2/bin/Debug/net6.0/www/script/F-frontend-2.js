@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-	email: `ggf${emailNumber}@valv.sbs`,
-	password: "qweQWE123!@#`",
+	email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
 	category: "frontend-2",
 	firstName: "Paulo",
 	lastName: "Jimenez",
 	country: "Colombia",
 	photoFilename: "F-frontend-2.jpg",
+	dateOfBirth: "1996-03-21"
+	    
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1996-03-21";
 	t.profileTitle = "Frontend Developer | Responsive Design | HTML/CSS | Javascript | WebGL";
 	t.address = {
 		"street": "Cr 29 No. 27-15, C.P 76534",

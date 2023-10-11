@@ -1,18 +1,21 @@
 
 window.signupInfo = {
-    email: `gg${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+   email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "javascript",
     firstName: "Marcos",
     lastName: "Oliveira",
     country: "Brazil",
     photoFilename: "5-javascript.jpg",
+    dateOfBirth: "1993-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
     t.profileTitle = "Full-Stack | Javascript | Node | React | Angular | Vue | Web3";
+    t.dateOfBirth = "1993-01-22";
     t.address = {
         "street": "Rua Belo Oriente 665",
         "state": "SP",

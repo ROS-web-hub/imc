@@ -1,17 +1,20 @@
 
 window.signupInfo = {
-    email: `ggw${emailNumber}@valv.sbs`,
-    password: "qweQWE123!@#`",
+    email: `em${emailNumber}@aduriz.online`,
+    password: "1234&qwerT",
     category: "webflow-2",
     firstName: "Daniel",
     lastName: "Cardoso",
     country: "Brazil",
     photoFilename: "W-webflow-2.jpg",
+    dateOfBirth: "1996-01-22"
+        
 };
 
 // setProfile(window.$nuxt.$store._vm.$data.$$state['mini-profile']);
 function setProfile(t) {
     t ??= {};
+    t.dateOfBirth = "1996-01-22";
     t.profileTitle = "Webflow Specialist | Frontend Developer | Responsive Design | Figma";
     t.address = {
         "street": "Praça Joaquim Pinto de Almeida 183",
